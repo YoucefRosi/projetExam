@@ -1,0 +1,6 @@
+# config/routes.yaml
+
+generate_data:
+    path: /generate-data
+    controller: App\Controller\Controller::generateData
+    methods: [GET]
